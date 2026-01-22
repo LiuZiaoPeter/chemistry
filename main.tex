@@ -4,8 +4,9 @@
 
 \usepackage{anyfontsize}
 
-\usepackage{mhchem}
 \usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{mol2chemfig}
 
 \title{个人化学笔记}
 \author{( . .)}
@@ -20,5 +21,9 @@
 	\mainmatter
 
 	\chapter{高一}
+
+	\ce{(Al(OH)_4)^-} 分子结构为 \chemfig{HO-[:60,,2,2]_{2\mcfplus}Al(-[:330,,2,1]OH)(-[:150,,2,2]HO)-[:60,,2,1]OH}。事实上，能形成两性氢氧化物的金属都能形成类似的四羟基合物，例如 \ce{(Zn(OH)_4)^{2-}}（\chemfig{HO-[0]Zn^{2-}(-[2]OH)(-[6]OH)-[0]OH}）
+
+	\chemfig{H_3C-[:30]N**6(-(=O)-(**5(-N(-CH_3)--N-))--N(-CH_3)-(=O)-)}
 
 \end{document}
